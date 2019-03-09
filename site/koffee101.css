@@ -1,0 +1,115 @@
+/*ONLY CSS NO OTHER TOOLS*/
+
+
+
+}*/			
+nav,
+header,
+footer{
+	display: block;
+
+}
+	
+/*img{
+
+	width: 100%;
+	height: auto;
+	padding: 0rem;
+	opacity: 0.9;
+}*/
+nav{
+	width: 100%;
+	height: 3.2rem;
+	margin: 0;
+	background-color: #FFFFFF;
+	margin-top: -3px;
+
+}
+
+nav ul{
+	overflow: hidden;
+	margin: 0;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+ul{
+	font-size: 1em;
+	font-weight: bold;
+	font-color:	#000000;
+}
+
+ul.tnav li{
+	list-style: none;
+	float: left;
+}
+ul.tnav li.tnav-navright{
+	float: right;
+}
+
+ul.tnav li a{
+	display: block;
+	color: #000000;
+	padding: 12px;
+	min-height: 14px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+}
+ul.tnav li a:hover{
+	background-color: #7c5a00;
+	color: #F5DEB3;
+}
+
+ul.tnav li.dropdownIcon{
+	display: none;
+}
+
+/*//////////// Mobile /////////////*/
+@media screen and (max-width: 680px){
+	ul.tnav li:not(:nth-child(1)){
+		display: none;
+	}
+}
+
+/*=============== Content =====================*/
+
+h1.header{
+	color: 	#FFFFFF;
+	font-weight: 700;
+	font-size: 5em;
+	padding-top: 15%;
+	/*text-align: center;*/
+	font-family: 'Niconne', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+}
+h3{
+	color: #FFFFFF;
+	/*text-align: center;*/
+	font-family: 'Niconne', cursive;
+	font-size: 24px;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+/*============== Line ===================*/
+hr {
+	width: 300px;
+    border-top: 2px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    margin-right: 65%;
+    margin-top: 30px;
+}
+
+body{
+	background-image: url("aga-putra-125108-unsplash.jpg");
+	background-size: cover;	
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;	
+}
+
+#move{
+	margin-right: 50%;
+	position: relative;
+	overflow: hidden;
+}
